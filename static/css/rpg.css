@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Basic:ital,wght@0,400;0,700;1,400;1,700&family=Gotu&display=swap');
+
+body {
+    font-family: "Gentium Basic", serif;
+}
+
+h1, h2 {
+    font-family: "Gotu", sans-serif;
+}
+
+blockquote {
+    overflow-wrap: break-word;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 2rem;
+}
+
+ul + p {
+    margin-top: 1rem;
+}
+
+dt {
+    font-size: 90%;
+    font-style: italic;
+    line-height: 1.2;
+    text-decoration: underline;
+    color: #555;
+}
+
+dt:after {
+    content: ':'
+}
+
+dd {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+figure {
+    margin: 1rem auto;
+    max-width: 90%;
+}
+
+figcaption {
+    text-align: center;
+    opacity: 0.9;
+    font-size: 50%;
+}
